@@ -8,7 +8,7 @@ Official repo for the paper [From Uncertain to Safe: Conformal Adaptation of Dif
 
 We propose safe diffusion models for PDE Control, which introduces the uncertainty quantile as model uncertainty quantification to achieve optimal control under safety constraints through both post-training and inference phases.
 
-<a href="url"><img src="img/overview.pdf" align="center" width="700" ></a>
+<a href="url"><img src="img/overview.png" align="center" width="1000" ></a>
 
 ## Environment
 
