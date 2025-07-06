@@ -1,0 +1,16 @@
+python a_gen_dataset_128.py \
+    --data_savepath='/data/train'\
+    --test_or_train=train \
+    --branch_begin=0 \
+    --branch_end=80 \
+    --scenecount=66 \
+    --original_timelength=256 \
+    --time_length=32 \
+    --original_space_length=128 \
+    --space_length=64 \
+    --min_scale=2 \
+    --max_scale=5 \
+    --y_scale=5 \
+    --initial_vy=0.2 \
+    --min_sum_rate=0.85 \
+    --max_sum_rate=1.15
