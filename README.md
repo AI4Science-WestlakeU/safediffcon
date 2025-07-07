@@ -30,16 +30,31 @@ Please place the 1D Burgers' checkpoint in the `1D/experiments/checkpoints/turbo
 
 ## Experiments
 ### 1D Burgers' Equation
+If the checkpoint is downloaded, reproduce the result with
 ```code
-bash /1D/pretrain_eval.sh && bash /1D/reproduce_InfFT.sh
+bash /1D/reproduce_InfFT.sh
+```
+Or pretrain the model by yourself with
+```code
+bash /1D/pretrain_eval.sh
 ```
 
 ### 2D Smoke
+If the checkpoint is downloaded, reproduce the result with
 ```code
-bash /2d/scripts/train.sh && bash /2d/scripts/posttrain.sh && bash /2d/scripts/finetune.sh
+bash /2d/scripts/finetune.sh
+```
+Or pretrain and posttrain the model by yourself with
+```code
+bash /2d/scripts/train.sh && bash /2d/scripts/posttrain.sh 
 ```
 
 ### Tokamak
+If the checkpoint is downloaded, reproduce the result with
+```code
+bash /tokamak/scripts/finetune.sh
+```
+Or pretrain and posttrain the model by yourself with
 ```code
 python /tokamak/pretrain.py && bash /tokamak/scripts/posttrain.sh && bash /tokamak/scripts/finetune.sh
 ```
